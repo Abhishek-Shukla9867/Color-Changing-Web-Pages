@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Pages</title>
+</head>
+<style>
+  #Green {
+    background-color: rgb(21, 255, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #red {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #Black {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #Yellow {
+    background-color: rgb(255, 234, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #Blue {
+    background-color: rgb(17, 0, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #White {
+    background-color: rgb(231, 239, 231);
+    color: rgb(2, 2, 2);
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #Pink {
+    background-color: palevioletred;
+    color: rgb(219, 215, 215);
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #Orange {
+    background-color: orange;
+    color: rgb(231, 231, 231);
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #Choklate {
+    background-color: chocolate;
+    color: rgb(255, 253, 253);
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  #navy {
+    background-color: navy;
+    color: rgb(255, 253, 253);
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+</style>
+
+<body id="bd">
+  <center>
+    <H2>Color Changing Web Page</H2>
+  </center>
+
+  <div class="btn">
+    <center>
+      <button id="Green" onclick="A()">Green</button>
+      <button id="red" onclick="X()">Red</button>
+      <button id="Black" onclick=" B()">Black</button>
+      <button id="Yellow" onclick="Y()">Yellow</button>
+      <button id="Blue" onclick="b()">Blue</button>
+      <button id="White" onclick="W()">White</button>
+      <button id="Pink" onclick="P()">Pink</button>
+      <button id="Orange" onclick="O()">Orange</button>
+      <button id="navy" onclick="n()">Navy</button>
+      <button id="Choklate" onclick="Ch()">Chocolate
+      </button>
+    </center>
+  </div>
+
+  <script>
+
+    let red_color = document.getElementById('red');
+    let X = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "red";
+
+    }
+
+
+    let Green_color = document.getElementById('Green');
+    let A = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "Green";
+
+    }
+
+
+    let Black = document.getElementById('Black');
+    let B = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "black";
+    }
+
+
+    let Yellow = document.getElementById('Yellow');
+    let Y = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "Yellow";
+
+    }
+
+ 
+     
+    let Blue = document.getElementById('Blue');
+    let b = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "Blue";
+    }
+ 
+    
+     
+    let White = document.getElementById('White');
+    let W = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "White";
+    }
+ 
+     
+    let pink = document.getElementById('Pink');
+    let P = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "Pink";
+    }
+
+      
+    let orange = document.getElementById('Orange');
+    let O = function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "Orange";
+    }
+
+   
+      
+    let Navy = document.getElementById('navy');
+    let  n= function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "navy";
+    }
+
+     
+    let Cho = document.getElementById('Choklate');
+    let  Ch= function () {
+      let y = document.getElementById('bd');
+      y.style.backgroundColor = "Chocolate";
+    }
+
+       
+
+
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
